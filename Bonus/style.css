@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: lightgray;
+  background-color: rgba(211, 211, 211, 0.7);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -19,6 +19,7 @@ h1 {
   text-align: center;
   font-size: 7rem;
   margin-top: 5rem;
+  padding: 30px;
 }
 
 h2 {
@@ -27,6 +28,14 @@ h2 {
 
 .chapter {
   width: 100%;
-  padding: 20px 50px;
+  padding: 20px 70px;
+  text-align: center;
 }
 
+p {
+    margin: 20px 0;
+}
+
+.chapter:nth-last-child {
+    background-color: red;
+}
