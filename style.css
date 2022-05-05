@@ -1,23 +1,32 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: darkgray;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: lightgray;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  background-color: darkgray;
+  width: 60%;
+  margin: 5rem auto;
 }
 
 h1 {
-    text-align: center;
-    font-size: 7rem;
-    margin-top: 5rem;
+  text-align: center;
+  font-size: 7rem;
+  margin-top: 5rem;
 }
 
 h2 {
-    margin-bottom: 0rem;
+  margin:20px 0;
 }
+
 .chapter {
-    margin: 2rem 30rem;
+  width: 100%;
+  padding: 20px 50px;
 }
+
